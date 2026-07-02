@@ -1,5 +1,5 @@
 ---
-name: pragmatic-pm
+name: pm-copilot
 description: >-
   Product-management copilot based on the Pragmatic Institute Framework
   (Foundations, Focus, Build). Use this as the entry point whenever a product

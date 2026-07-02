@@ -15,7 +15,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 **Rule:** *articulate problems from the persona's point of view.* A use scenario
 illustrates a market problem as a "story" that puts it in context (including current
 results) — it is one component of requirements. See
-`../pragmatic-pm/references/framework.md`. Personas should exist first (`personas`).
+`../pm-copilot/references/framework.md`. Personas should exist first (`personas`).
 
 ## Anatomy of a Problem Card
 Map interrogatives to fields:
@@ -82,6 +82,6 @@ and the frustrating current result. Concrete and specific — no ambiguous terms
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then offer the next stage: roll these scenarios into prioritized
 **`requirements`** or a full **`prd`**.

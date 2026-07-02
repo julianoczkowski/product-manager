@@ -17,7 +17,7 @@ Identify competitive **and alternative** offerings in the market, assess their s
 and weaknesses, and develop a strategy for winning. Frame the comparison universe
 correctly — customers don't just choose between named competitors; "do nothing",
 spreadsheets, and in-house builds are alternatives too. Analytical rule of thumb: know
-**when to fight and when to run.** See `../pragmatic-pm/references/framework.md`.
+**when to fight and when to run.** See `../pm-copilot/references/framework.md`.
 
 ## The Solution Matrix
 
@@ -84,7 +84,7 @@ Axes: X = Impact to Customer (Low→High), Y = Depth of Investment (Low→High).
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: **ask Markdown or .docx**, write
+Follow `../pm-copilot/references/artifact-output.md`: **ask Markdown or .docx**, write
 the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then
 offer the next stage: sharpen **`positioning`** against these competitors, or set
 investment direction in **`product-strategy`**.

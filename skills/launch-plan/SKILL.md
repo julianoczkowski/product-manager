@@ -17,7 +17,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 Reuse the positioning statement, personas, and target date from earlier artifacts if
 they exist (positioning doc, personas, release charter). See
-`../pragmatic-pm/references/framework.md` for the Programs and Enablement boxes.
+`../pm-copilot/references/framework.md` for the Programs and Enablement boxes.
 
 ## What a launch pulls together
 - **Programs:** Awareness (raise profile in strategic segments), Nurturing (move
@@ -95,7 +95,7 @@ How and when each success metric is measured post-launch; report against corpora
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then offer the next stage: keep the launch on track with
 **`stakeholder-communication`** status updates, and after launch loop back to
 **`market-problems`** and **`win-loss-analysis`** to feed the next release.

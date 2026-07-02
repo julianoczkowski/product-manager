@@ -15,7 +15,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 A good product strategy balances **"Who do we want to pursue?"** with **"How do we
 solve the market's problems?"** and must support the company strategy. The **Strategy
 Matrix** forces the team to make tough choices early so resources aren't spread thin
-("peanut butter"). See `../pragmatic-pm/references/framework.md`.
+("peanut butter"). See `../pm-copilot/references/framework.md`.
 
 Two strategies to compare:
 - **Implicit strategy** — what the product team, working from market data, believes the
@@ -80,7 +80,7 @@ Top-left cell = the **TIME FRAME** (e.g. 1 / 3 / 5 years).
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert via your environment's native document-creation capability on request. Next stage:
 score the specific opportunities within your chosen cells with **`opportunity-scoring`**,
 then make the case with **`product-canvas`**.

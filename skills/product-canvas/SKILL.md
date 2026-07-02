@@ -18,7 +18,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 provides the basis for investment. Articulate what you learned in the market,
 quantify the risk with a financial model, and **end with a go/no-go recommendation.**
 Opinion is irrelevant; the case is built on validated market evidence. See
-`../pragmatic-pm/references/framework.md` for the market-problem test and primitives.
+`../pm-copilot/references/framework.md` for the market-problem test and primitives.
 
 If the underlying market problem, personas, positioning, competitive picture, or
 distinctive competencies aren't established yet, gather them first (run
@@ -116,6 +116,6 @@ Work top to bottom:
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, and convert to `.docx` on request via your environment's native document-creation capability. Then offer the next stage: turning the approved opportunity
 into a **`product-roadmap`**.

@@ -16,7 +16,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 **Rule:** *The answers to most of your questions are not in the building.* Discover,
 collect, analyze and communicate problems found in the market, then validate they are
 **urgent, pervasive, and that the market is willing to pay** to solve them. See
-`../pragmatic-pm/references/framework.md` for the full map.
+`../pm-copilot/references/framework.md` for the full map.
 
 ## Who to listen to
 
@@ -113,7 +113,7 @@ become candidate requirements.
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs (flag thin
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs (flag thin
 evidence and recommend specific NIHITO visits to fill it), **ask Markdown or .docx**,
 write the `.md`, and convert to `.docx` on request via your environment's native document-creation capability.
 Then offer the next stage: define **`personas`** for the people who have these problems,

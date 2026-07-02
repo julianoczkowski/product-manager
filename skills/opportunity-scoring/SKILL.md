@@ -14,7 +14,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 Evaluate candidate opportunities objectively so a decision rests on evidence, not the
 loudest voice. Score each opportunity on four attributes using a **1-to-5 scale where
-1 = Least Favorable and 5 = Most Favorable.** See `../pragmatic-pm/references/framework.md`.
+1 = Least Favorable and 5 = Most Favorable.** See `../pm-copilot/references/framework.md`.
 
 ## The four attributes (1 = least favorable, 5 = most favorable)
 | Attribute | What it measures | 1 (least) → 5 (most) |
@@ -67,6 +67,6 @@ total that depends on a competency you don't have.
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert via your environment's native document-creation capability on request. Next stage:
 build the full business case for the winner with **`product-canvas`**.

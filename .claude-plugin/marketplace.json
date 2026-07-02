@@ -1,12 +1,12 @@
 {
-  "name": "pragmatic-pm-marketplace",
+  "name": "product-manager-marketplace",
   "owner": {
     "name": "Julian"
   },
   "description": "The Pragmatic PM plugin — a product-management copilot built on the Pragmatic Institute Framework.",
   "plugins": [
     {
-      "name": "pragmatic-pm",
+      "name": "product-manager",
       "source": "./",
       "description": "Guide product managers from idea to launch using the Pragmatic Framework (Foundations, Focus, Build). Every stage ends in a client-ready artifact (Markdown or Word .docx).",
       "category": "product-management",

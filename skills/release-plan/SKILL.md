@@ -14,7 +14,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 The **roadmap drives the release plan**. A roadmap is a plan, not a commitment; a
 **release charter is a signed agreement** of what will be delivered. See
-`../pragmatic-pm/references/framework.md`.
+`../pm-copilot/references/framework.md`.
 
 **MVP, done right:** *"the version of a new product that allows a team to collect the
 maximum validated learning with the least effort."* An MVP is **not** the smallest
@@ -101,7 +101,7 @@ management if the plan changes.*
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then offer the next stage: set up
 **`stakeholder-communication`** to report status against this charter, and
 **`launch-plan`** to prepare go-to-market for the target window.

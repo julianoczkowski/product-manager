@@ -15,7 +15,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 Best done with a **small cross-functional group** (product management, product
 marketing, sales, development, executives). It scores every activity in the framework
 so the team can agree where to invest. See the full 37-box list in
-`../pragmatic-pm/references/framework.md`.
+`../pm-copilot/references/framework.md`.
 
 ## The scale
 - **Importance** — how important is this activity to the company? **0 (low) – 5 (high)**.
@@ -85,7 +85,7 @@ PgM (Program Manager), PjM (Project Manager), PO (Product Owner), TPM (Technical
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert via your environment's native document-creation capability on request. Then route to
-the worst-scoring box using `../pragmatic-pm/references/journey.md` (e.g. a Market
+the worst-scoring box using `../pm-copilot/references/journey.md` (e.g. a Market
 Problems gap → run **`market-problems`**).

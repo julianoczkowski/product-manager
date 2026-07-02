@@ -15,7 +15,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 **Rule:** *Teams that understand personas and their problems build remarkable products.*
 A persona is an **archetype built from observed patterns**, not a fictional character
 you invented. Ground every trait in market evidence (interviews, win/loss, support,
-usage). See `../pragmatic-pm/references/framework.md` for the market-driven basics.
+usage). See `../pm-copilot/references/framework.md` for the market-driven basics.
 
 - **Buyer persona** — the archetypical person who **makes or influences the purchase**
   decision (motivations, barriers, buying process). Guides marketing and sales.
@@ -104,7 +104,7 @@ Roadblocks that keep them from achieving their goals (first person):
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability.
 Deliver a buyer and a user persona where relevant. Next stage: use these personas to
 write **`positioning`** (per persona) or prioritized **`requirements`**.

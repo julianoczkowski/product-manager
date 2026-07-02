@@ -20,7 +20,7 @@ the team). Write every requirement as:
 > **[persona]** has **[problem, described in a use scenario]** with **[frequency]**.
 
 If personas or use scenarios aren't ready, run `personas` and `use-scenarios` first.
-See `../pragmatic-pm/references/framework.md`.
+See `../pm-copilot/references/framework.md`.
 
 ## Prioritize objectively (never High/Med/Low or voting)
 **Priority = Market Evidence × Impact.**
@@ -118,6 +118,6 @@ other artifacts have been created? Are we driven primarily by content or by a ta
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then offer the next stages: add context with `use-scenarios`,
 assemble a full `prd`, or commit an increment with `release-plan`.

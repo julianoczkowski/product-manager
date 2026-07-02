@@ -16,7 +16,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 phases of deliverables. Communicate **outcomes and the market problems you'll solve**,
 using **time-frames rather than specific dates**, and reflect innovation's
 unpredictability. External guidance: **under-promise so the team can over-deliver.**
-See `../pragmatic-pm/references/framework.md`.
+See `../pm-copilot/references/framework.md`.
 
 ## Roadmap vs. Release Plan (keep them separate)
 | Roadmap | Release Plan / Charter |
@@ -83,6 +83,6 @@ Dates and committed scope live in the Release Plan, not here.
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then offer the next stages: define what to build with
 **`requirements`**, or commit a dated increment with **`release-plan`**.

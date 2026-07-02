@@ -17,7 +17,7 @@ A PRD here is a **market requirements document** — it specifies the **WHAT** (
 market problems, personas, and prioritized requirements). The **HOW** (design,
 flows, UI, prototypes, error conditions) belongs to the team. Lead with the
 problem, cite evidence, and write problems in the persona's **first-person voice**.
-See `../pragmatic-pm/references/framework.md` for the primitives used below.
+See `../pm-copilot/references/framework.md` for the primitives used below.
 
 **Requirement form:** *[persona] has [problem, described in a use scenario] with [frequency].*
 **Priority = Market Evidence × Impact** (advanced: × (B + U + C + V) — Buying, Using, Vision, Competitive).
@@ -121,7 +121,7 @@ the current workaround>. This happens <frequency>. <Why it matters.>
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs (fill gaps with
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs (fill gaps with
 clearly-marked assumptions rather than inventing evidence), **ask Markdown or .docx**,
 write the `.md`, convert to `.docx` on request via your environment's native document-creation capability.
 Then offer the next stage: turn the prioritized requirements into a committed

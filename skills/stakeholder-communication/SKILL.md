@@ -16,7 +16,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 > **Executives communicate in spreadsheets, not screenshots.** **Track trends, not
 > absolute numbers.** Manage proactive communications from strategy through execution.
 
-See `../pragmatic-pm/references/framework.md` for the primitives.
+See `../pm-copilot/references/framework.md` for the primitives.
 
 ## Three steps
 **Identify → Analyze → Communicate.**
@@ -93,6 +93,6 @@ Category | Metric to Move | Goal State | Current State | Initiative | Outcome
 [Measuring / Positive / Negative / Uncertain].)
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Deliver the plan and a first status update. Then offer the
 next stage: **`launch-plan`** as the release nears its market window.

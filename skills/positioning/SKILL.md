@@ -17,7 +17,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 problems in the persona's **first-person voice**. This is an internal document (an
 "internal press release") used to gain buy-in, brief design/engineering, and hand
 off to marketing to build external messaging. See the primitives in
-`../pragmatic-pm/references/framework.md`.
+`../pm-copilot/references/framework.md`.
 
 ## Prepare
 Ideally a team of 3–6 people with market knowledge, staying objective. Start with
@@ -101,6 +101,6 @@ The ideal solution to this problem is <clear, specific solution from the persona
 Capabilities: Instant Requirements, Idea Store, Auto Feedback, Trace Link, Status View.
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: confirm inputs, **ask Markdown
+Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Deliver both the Positioning Document and the POC worksheet.
 Then offer the next stage: turning these problems into prioritized **`requirements`**.

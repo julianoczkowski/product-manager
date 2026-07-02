@@ -16,7 +16,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 **Rule:** *Win/loss should be done by someone not involved in that sales effort.* You are
 evaluating **the buying process, not the salespeople**. Build a champion in sales
 leadership to get access, and reassure everyone you're studying how the market buys.
-Ideally the product team owns win/loss. See `../pragmatic-pm/references/framework.md`.
+Ideally the product team owns win/loss. See `../pm-copilot/references/framework.md`.
 
 ## Ranking scales (use verbatim)
 - **Perception / quality (most questions):** rank **1–6**, where **1 = Poor, 6 = Excellent**, NA = Not Applicable. (Site-visit value: 1 = Low, 6 = High.)
@@ -103,7 +103,7 @@ Ideally the product team owns win/loss. See `../pragmatic-pm/references/framewor
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: **ask Markdown or .docx**, write
+Follow `../pm-copilot/references/artifact-output.md`: **ask Markdown or .docx**, write
 the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then
 offer the next stage: feed the patterns into **`market-problems`** validation or sharpen
 your **`positioning`**.

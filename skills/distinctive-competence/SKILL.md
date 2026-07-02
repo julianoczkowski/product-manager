@@ -15,7 +15,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 Articulate and leverage the organization's **unique abilities to deliver value to the
 market.** These are the strengths you intersect with validated market problems to find
 opportunities that are *ideal for you* (see the M5 prioritization logic in
-`../pragmatic-pm/references/framework.md`).
+`../pm-copilot/references/framework.md`).
 
 ## The test — an attribute is a distinctive competency only if it is all three
 - **Valued** — the market actually cares about it (it maps to a real problem they'll pay to solve).
@@ -61,7 +61,7 @@ provable are:
 ```
 
 ## Deliver the artifact
-Follow `../pragmatic-pm/references/artifact-output.md`: **ask Markdown or .docx**, write
+Follow `../pm-copilot/references/artifact-output.md`: **ask Markdown or .docx**, write
 the `.md`, convert to `.docx` on request via your environment's native document-creation capability. Then
 offer the next stage: score opportunities against these strengths in
 **`opportunity-scoring`**, or set direction in **`product-strategy`**.
