@@ -172,6 +172,7 @@ product-manager/
 ```
 
 ## License
-MIT (for the plugin code and skill authoring). The Pragmatic Framework concepts are
-the intellectual property of Pragmatic Institute; this project is an independent,
-unaffiliated practitioner aid.
+[MIT](./LICENSE) — covers this project's own content (skill authoring, docs, manifests).
+The Pragmatic Framework concepts are the intellectual property of Pragmatic Institute;
+this project is an independent, unaffiliated practitioner aid. See [NOTICE](./NOTICE.md)
+for the full trademark disclaimer and [SECURITY](./SECURITY.md) to report issues.
