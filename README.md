@@ -123,11 +123,21 @@ For local development instead of GitHub, point the marketplace at the folder:
 Then just talk to it: *"I want to build a feature that lets users export reports."*
 The `pm-copilot` skill auto-activates and routes you.
 
-### Cursor / Claude Cowork (as portable skills)
+### Claude Desktop (as a personal plugin)
+Add this repo as a plugin marketplace from the app UI:
+
+1. Open **Settings → Customize → Connectors**.
+2. Next to **Personal plugins**, click the **+**, then **Add → Add marketplace**.
+3. Choose **Add from a repository**.
+4. Paste the repo URL — `https://github.com/julianoczkowski/product-manager` (or just
+   `julianoczkowski/product-manager`) — and click **Sync**.
+5. Open the **Plugins → Personal** directory, find **Product Manager Copilot** under
+   the **product-manager** marketplace, open it, and click **Install**.
+
+### Cursor (as portable skills)
 Copy the `skills/` subfolders into the project's skills directory (e.g.
 `.claude/skills/`). The skills are plain `SKILL.md` files with **no external
-dependencies and no bundled scripts**, so they load and run directly in any of the
-three tools.
+dependencies and no bundled scripts**, so they load and run directly.
 
 ---
 
