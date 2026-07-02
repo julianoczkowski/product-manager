@@ -1,0 +1,22 @@
+{
+  "name": "pragmatic-pm",
+  "displayName": "Pragmatic PM",
+  "description": "A product-management copilot based on the Pragmatic Institute Framework (Foundations, Focus, Build). Guides PMs from a raw idea through market research, positioning, strategy, requirements, roadmap and launch — and produces a client-ready artifact (Markdown or Word .docx) at every stage.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Julian"
+  },
+  "keywords": [
+    "product-management",
+    "pragmatic-institute",
+    "pragmatic-framework",
+    "market-research",
+    "positioning",
+    "personas",
+    "roadmap",
+    "prd",
+    "requirements",
+    "go-to-market"
+  ],
+  "license": "MIT"
+}
