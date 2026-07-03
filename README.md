@@ -1,5 +1,9 @@
 # Product Manager Copilot (skills + artefacts)
 
+[![YouTube](https://img.shields.io/badge/YouTube-%40aiforwork__app-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@aiforwork_app)
+[![Medium](https://img.shields.io/badge/Medium-%40julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Julian%20Oczkowski-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianoczkowski/)
+
 https://github.com/user-attachments/assets/621169c2-778c-448c-8d8d-de8597a28fce
 
 A **product-management copilot** built on the **Pragmatic Institute Framework™**
@@ -33,6 +37,7 @@ This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The sam
 - [Artifacts: Markdown or Word](#artifacts-markdown-or-word-one-folder-per-feature)
 - [How the journey works](#how-the-journey-works)
 - [Repo layout](#repo-layout)
+- [Author](#author)
 - [License](#license)
 
 ---
@@ -199,10 +204,17 @@ product-manager/
 │   └── marketplace.json
 ├── skills/
 │   ├── pm-copilot/           # router + references/ (framework, journey, artifact-output)
-│   ├── market-problems/ … launch-plan/   # 17 stage skills
+│   ├── pm-market-problems/ … pm-launch-plan/   # 17 stage skills
 ├── README.md
 └── LICENSE
 ```
+
+## Author
+Built by **Julian Oczkowski** — I build AI tools for knowledge work.
+
+- 🎥 **[YouTube · @aiforwork_app](https://www.youtube.com/@aiforwork_app)** — walkthroughs and AI-for-work tutorials
+- ✍️ **[Medium](https://medium.com/@julian.oczkowski)** — deep dives on product and AI workflows
+- 💼 **[LinkedIn](https://www.linkedin.com/in/julianoczkowski/)** — connect and follow along
 
 ## License
 [MIT](./LICENSE) — covers this project's own content (skill authoring, docs, manifests).
