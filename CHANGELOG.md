@@ -6,6 +6,25 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-07-03
+
+### Changed
+- **Breaking:** renamed all 17 stage skills with a `pm-` prefix (`pm-personas`,
+  `pm-positioning`, `pm-market-problems`, …) so `/pm-` surfaces the whole toolkit and
+  names don't collide with other plugins. Invoke skills by their new prefixed names;
+  `pm-copilot` is unchanged.
+- Product name is now **Product Manager Copilot** across the README, marketplace
+  description, and the router skill.
+- README: added a video demo, a Contents index, and split Install instructions into
+  separate **Claude Code**, **Claude Desktop**, and **Cursor** sections.
+
+### Added
+- `CLAUDE.md` documenting skill conventions and the release/sync workflow.
+
+### Removed
+- The `version` field in `plugin.json`, so clients detect updates by git commit SHA
+  (no manual version bump needed per change).
+
 ## [0.1.0] — 2026-07-02
 
 ### Added
@@ -24,5 +43,6 @@ All notable changes to this project are documented here. The format is based on
 - Plugin + marketplace manifests, README with an annotated skills list, MIT license,
   and security policy.
 
-[Unreleased]: https://github.com/julianoczkowski/product-manager/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/julianoczkowski/product-manager/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/julianoczkowski/product-manager/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/julianoczkowski/product-manager/releases/tag/v0.1.0
