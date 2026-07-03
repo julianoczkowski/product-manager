@@ -1,8 +1,6 @@
-
+# Product Manager Copilot (skills + artefacts)
 
 https://github.com/user-attachments/assets/621169c2-778c-448c-8d8d-de8597a28fce
-
-# Product Manager Copilot (skills + artefacts)
 
 A **product-management copilot** built on the **Pragmatic Institute Framework™**
 (Foundations · Focus · Build). It guides a product manager from a raw idea all the
@@ -64,17 +62,13 @@ The shared knowledge base lives in `skills/pm-copilot/references/`:
 
 ---
 
-
-
-https://github.com/user-attachments/assets/520bbb41-67b0-42dd-a65c-2d52a6920fca
-
-
-
 ## The skills, explained
 
 Each skill runs one stage of the market-driven journey and ends by writing an artifact
 into the feature's folder. You can invoke any of them directly, or let `pm-copilot`
 route you.
+
+https://github.com/user-attachments/assets/520bbb41-67b0-42dd-a65c-2d52a6920fca
 
 **Router**
 - **`pm-copilot`** — the entry point. Figures out what you're asking for, tells you where
