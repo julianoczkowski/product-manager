@@ -6,6 +6,17 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+### Added
+- `CLAUDE.md` documenting skill conventions and the release/sync workflow.
+
+### Changed
+- Cursor install now uses Vercel's open [Skills CLI](https://github.com/vercel-labs/skills)
+  (`npx skills add julianoczkowski/product-manager`), which auto-detects and installs to
+  any supported agent (Cursor, Claude Code, Codex, Cline, GitHub Copilot, and ~70 more).
+  The manual copy step remains as a fallback.
+- `.gitignore` now excludes `*.mp4` (demo videos are uploaded to GitHub's asset CDN, not
+  committed).
+
 ## [0.2.0] — 2026-07-03
 
 ### Changed
@@ -17,9 +28,6 @@ All notable changes to this project are documented here. The format is based on
   description, and the router skill.
 - README: added a video demo, a Contents index, and split Install instructions into
   separate **Claude Code**, **Claude Desktop**, and **Cursor** sections.
-
-### Added
-- `CLAUDE.md` documenting skill conventions and the release/sync workflow.
 
 ### Removed
 - The `version` field in `plugin.json`, so clients detect updates by git commit SHA
