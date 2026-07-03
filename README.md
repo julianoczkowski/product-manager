@@ -36,7 +36,6 @@ This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The sam
   - [Cursor and other agents](#cursor-and-other-agents-via-the-skills-cli)
 - [Artifacts: Markdown or Word](#artifacts-markdown-or-word-one-folder-per-feature)
 - [How the journey works](#how-the-journey-works)
-- [Repo layout](#repo-layout)
 - [Author](#author)
 - [License](#license)
 
