@@ -1,4 +1,4 @@
-# The Pragmatic Product Management journey — stages, skills, and artifacts
+# The Product Manager Copilot journey — stages, skills, and artifacts
 
 Each stage produces one artifact. A PM rarely does all of them at once — the router
 picks the right entry point for what the user actually asked, then offers the next step.

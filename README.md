@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/621169c2-778c-448c-8d8d-de8597a28fce
 
-# Pragmatic Product Management Skills
+# Product Manager Copilot (skills + artefacts)
 
 A **product-management copilot** built on the **Pragmatic Institute Framework™**
 (Foundations · Focus · Build). It guides a product manager from a raw idea all the
