@@ -1,6 +1,6 @@
 # Producing the artifact (shared procedure)
 
-Every Pragmatic PM skill ends by producing a **client-ready artifact**. Follow this
+Every Pragmatic Product Management skill ends by producing a **client-ready artifact**. Follow this
 procedure identically across all skills so the experience is consistent.
 
 ## 1. Collect the standard header inputs (once per session, then reuse)

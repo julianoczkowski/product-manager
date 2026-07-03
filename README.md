@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/621169c2-778c-448c-8d8d-de8597a28fce
 
-# Pragmatic PM
+# Pragmatic Product Management Skills
 
 A **product-management copilot** built on the **Pragmatic Institute Framework™**
 (Foundations · Focus · Build). It guides a product manager from a raw idea all the
@@ -21,6 +21,21 @@ This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The sam
 > described Pragmatic Framework for practitioners. It is **not affiliated with,
 > endorsed by, or sponsored by Pragmatic Institute**. "Pragmatic Framework" and
 > "Pragmatic Institute" are trademarks of their respective owner.
+
+---
+
+## Contents
+
+- [What's inside](#whats-inside)
+- [The skills, explained](#the-skills-explained)
+- [Install](#install)
+  - [Claude Code](#claude-code-as-a-plugin)
+  - [Claude Desktop](#claude-desktop-as-a-personal-plugin)
+  - [Cursor](#cursor-as-portable-skills)
+- [Artifacts: Markdown or Word](#artifacts-markdown-or-word-one-folder-per-feature)
+- [How the journey works](#how-the-journey-works)
+- [Repo layout](#repo-layout)
+- [License](#license)
 
 ---
 
