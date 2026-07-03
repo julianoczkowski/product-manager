@@ -159,6 +159,8 @@ npx skills add julianoczkowski/product-manager
 
 Every stage asks how you want the deliverable — **Markdown (`.md`) or Word (`.docx`)**.
 
+<img width="1093" height="606" alt="artefacts" src="https://github.com/user-attachments/assets/2c7f580c-af0d-477d-8134-db017515e911" />
+
 - **One folder per feature.** The first artifact of a session creates a folder named
   after your feature/product (e.g. `satellite-tracking-system/`) in the working
   directory, and every subsequent artifact is saved there and numbered
@@ -174,6 +176,9 @@ Every stage asks how you want the deliverable — **Markdown (`.md`) or Word (`.
 ---
 
 ## How the journey works
+
+<img width="1093" height="606" alt="flow" src="https://github.com/user-attachments/assets/1390bea8-d0a5-40fb-b4d5-39796cae249f" />
+
 
 1. **Orient** — the router reads the framework map and figures out where you are.
 2. **Route** — it maps your ask to the right stage (see `journey.md`).
