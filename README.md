@@ -128,7 +128,9 @@ https://github.com/user-attachments/assets/520bbb41-67b0-42dd-a65c-2d52a6920fca
 ## Install
 
 ### Claude Desktop (as a personal plugin)
-Add this repo as a plugin marketplace from the app UI:
+Add this repo as a plugin marketplace from the app UI.
+
+https://github.com/user-attachments/assets/d01f1a09-3438-4fc6-8dd5-687a1594f077
 
 1. Open **Settings → Customize → Connectors**.
 2. Next to **Personal plugins**, click the **+**, then **Add → Add marketplace**.
