@@ -64,10 +64,10 @@ validated market evidence, not internal opinion. It reads left→right as
 
 | Course | Covers | Plugin skills |
 |---|---|---|
-| **Foundations** | Market-driven fundamentals: discovery, market problems, segments, win/loss, distinctive competence, personas, positioning, framework gap analysis | `market-problems`, `win-loss-analysis`, `distinctive-competence`, `personas`, `positioning`, `competitive-landscape`, `gap-analysis` |
-| **Focus** | Strategy, opportunity scoring, product canvas / business case, pricing, roadmap | `product-strategy`, `opportunity-scoring`, `product-canvas`, `product-roadmap`, `competitive-landscape` |
-| **Build** | Requirements, use scenarios, prioritization, MVP / release planning, stakeholder communication | `requirements`, `use-scenarios`, `prd`, `release-plan`, `stakeholder-communication`, `personas` |
-| **Programs (GTM)** | Launch readiness | `launch-plan` |
+| **Foundations** | Market-driven fundamentals: discovery, market problems, segments, win/loss, distinctive competence, personas, positioning, framework gap analysis | `pm-market-problems`, `pm-win-loss-analysis`, `pm-distinctive-competence`, `pm-personas`, `pm-positioning`, `pm-competitive-landscape`, `pm-gap-analysis` |
+| **Focus** | Strategy, opportunity scoring, product canvas / business case, pricing, roadmap | `pm-product-strategy`, `pm-opportunity-scoring`, `pm-product-canvas`, `pm-product-roadmap`, `pm-competitive-landscape` |
+| **Build** | Requirements, use scenarios, prioritization, MVP / release planning, stakeholder communication | `pm-requirements`, `pm-use-scenarios`, `pm-prd`, `pm-release-plan`, `pm-stakeholder-communication`, `pm-personas` |
+| **Programs (GTM)** | Launch readiness | `pm-launch-plan` |
 
 ## Reusable Pragmatic primitives (used across skills)
 

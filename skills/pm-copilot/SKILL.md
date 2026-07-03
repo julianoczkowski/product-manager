@@ -33,7 +33,7 @@ not from opinion: *"Your opinion, although interesting, is irrelevant."*
    willing-to-pay test), and what the sequence of artifacts will be. Offer the guided
    sequence *or* a jump to any single stage. Let them steer.
 4. **Hand off to the stage skill.** For the chosen stage, follow that skill
-   (e.g. `positioning`, `requirements`). Each stage skill contains the Pragmatic
+   (e.g. `pm-positioning`, `pm-requirements`). Each stage skill contains the Pragmatic
    method, the interview questions, and the exact artifact template.
 5. **Produce the artifact.** Every stage ends with an artifact. Follow
    `references/artifact-output.md` exactly — including asking **Markdown or .docx**
@@ -60,15 +60,15 @@ not from opinion: *"Your opinion, although interesting, is irrelevant."*
 
 ## The stages (each is its own skill)
 
-Foundations → `market-problems`, `win-loss-analysis`, `distinctive-competence`,
-`competitive-landscape`, `personas`, `positioning`, `gap-analysis`.
-Focus → `product-strategy`, `opportunity-scoring`, `product-canvas`, `product-roadmap`.
-Build → `requirements`, `use-scenarios`, `prd`, `release-plan`, `stakeholder-communication`.
-Go-to-market → `launch-plan`.
+Foundations → `pm-market-problems`, `pm-win-loss-analysis`, `pm-distinctive-competence`,
+`pm-competitive-landscape`, `pm-personas`, `pm-positioning`, `pm-gap-analysis`.
+Focus → `pm-product-strategy`, `pm-opportunity-scoring`, `pm-product-canvas`, `pm-product-roadmap`.
+Build → `pm-requirements`, `pm-use-scenarios`, `pm-prd`, `pm-release-plan`, `pm-stakeholder-communication`.
+Go-to-market → `pm-launch-plan`.
 
 Full mapping, order, and the "build a feature" sequence are in `references/journey.md`.
 
 ## If the user just wants to understand the framework
 Summarize from `references/framework.md`: the STRATEGY→EXECUTION split, the 7 columns
 (Market, Focus, Business, Planning, Programs, Enablement, Support) and 37 boxes, and the
-core rules. Offer to run a `gap-analysis` to see where their team stands.
+core rules. Offer to run a `pm-gap-analysis` to see where their team stands.

@@ -15,7 +15,7 @@ way to launch the *market-driven* way — and produces a **client-ready artifact
 > you a finished document each step of the way.
 
 This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The same
-`skills/` folder works in **Claude Code**, **Cursor**, and **Claude Cowork**.
+`skills/` folder works in **Claude Code**, **Claude Desktop**, and **Cursor**.
 
 > **Disclaimer:** This is an independent tool that operationalizes the publicly
 > described Pragmatic Framework for practitioners. It is **not affiliated with,
@@ -31,10 +31,10 @@ This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The sam
 | Course | Skills |
 |---|---|
 | **(Router)** | `pm-copilot` — detects intent and orchestrates the journey |
-| **Foundations** | `market-problems` · `win-loss-analysis` · `distinctive-competence` · `competitive-landscape` · `personas` · `positioning` · `gap-analysis` |
-| **Focus** | `product-strategy` · `opportunity-scoring` · `product-canvas` · `product-roadmap` |
-| **Build** | `requirements` · `use-scenarios` · `prd` · `release-plan` · `stakeholder-communication` |
-| **Go-to-market** | `launch-plan` |
+| **Foundations** | `pm-market-problems` · `pm-win-loss-analysis` · `pm-distinctive-competence` · `pm-competitive-landscape` · `pm-personas` · `pm-positioning` · `pm-gap-analysis` |
+| **Focus** | `pm-product-strategy` · `pm-opportunity-scoring` · `pm-product-canvas` · `pm-product-roadmap` |
+| **Build** | `pm-requirements` · `pm-use-scenarios` · `pm-prd` · `pm-release-plan` · `pm-stakeholder-communication` |
+| **Go-to-market** | `pm-launch-plan` |
 
 Each skill embeds the real Pragmatic method — the urgent/pervasive/willing-to-pay
 test, the four market segments, the positioning-statement formula, the
@@ -61,50 +61,50 @@ route you.
   "build a feature" sequence end to end. *(Orchestration; no artifact of its own.)*
 
 **Foundations — understand the market**
-- **`market-problems`** — Discover and validate real problems that are *urgent, pervasive,
+- **`pm-market-problems`** — Discover and validate real problems that are *urgent, pervasive,
   and worth paying to solve*; who to interview (the four segments), observation vs.
   interview, NIHITO. → *Market Discovery notes + a scored Market Problems Table.*
-- **`win-loss-analysis`** — Understand why buyers chose you or a competitor, run by an
+- **`pm-win-loss-analysis`** — Understand why buyers chose you or a competitor, run by an
   objective interviewer who evaluates the buying process, not the salespeople. → *Win/Loss
   Interview Guide + Findings Report.*
-- **`distinctive-competence`** — Pin down what your organization can do that rivals can't —
+- **`pm-distinctive-competence`** — Pin down what your organization can do that rivals can't —
   attributes that are *valued + different + provable*. → *Distinctive Competencies worksheet.*
-- **`competitive-landscape`** — Map competitors and alternatives, decide when to fight and
+- **`pm-competitive-landscape`** — Map competitors and alternatives, decide when to fight and
   when to run, and plot the Solution Matrix. → *Competitive analysis + Solution Matrix.*
-- **`personas`** — Build evidence-based **buyer** and **user** personas (usually different
+- **`pm-personas`** — Build evidence-based **buyer** and **user** personas (usually different
   people). → *Buyer Persona + User Persona.*
-- **`positioning`** — Describe the product by the problems it solves, not features; the
+- **`pm-positioning`** — Describe the product by the problems it solves, not features; the
   ≤25-word positioning statement + problem-oriented capabilities. → *Positioning Document
   + POC worksheet.*
-- **`gap-analysis`** — Score your team across all 37 framework activities to find the
+- **`pm-gap-analysis`** — Score your team across all 37 framework activities to find the
   biggest gaps and where to invest first. → *Gap Analysis table + top-3 action plan.*
 
 **Focus — turn knowledge into strategy**
-- **`product-strategy`** — Force the *who-to-win × what-to-build* choice with the Strategy
+- **`pm-product-strategy`** — Force the *who-to-win × what-to-build* choice with the Strategy
   Matrix, and compare the team's view against leadership's. → *Strategy Matrix + alignment notes.*
-- **`opportunity-scoring`** — Rank competing opportunities objectively on competency fit,
+- **`pm-opportunity-scoring`** — Rank competing opportunities objectively on competency fit,
   competition, investment, and buyer impact. → *Opportunity Scorecard.*
-- **`product-canvas`** — Build the business case: value prop / creation / capture, market
+- **`pm-product-canvas`** — Build the business case: value prop / creation / capture, market
   sizing, buy-build-partner, and a go/no-go. → *Product Canvas / Business Case.*
-- **`product-roadmap`** — Communicate vision and phases as a *plan, not a commitment*
+- **`pm-product-roadmap`** — Communicate vision and phases as a *plan, not a commitment*
   (roadmap vs. release plan; Desire → Discover → Define → Do). → *Product Roadmap.*
 
 **Build — define and deliver**
-- **`requirements`** — Turn validated problems into prioritized market requirements
+- **`pm-requirements`** — Turn validated problems into prioritized market requirements
   ("*[persona] has [problem] with [frequency]*", Priority = Evidence × Impact). → *Market
   Requirements Document (MRD).*
-- **`use-scenarios`** — Put each problem in a day-in-the-life story (Problem Card; avoid
+- **`pm-use-scenarios`** — Put each problem in a day-in-the-life story (Problem Card; avoid
   ambiguous terms; the *What* vs. *How* split). → *Use Scenarios document.*
-- **`prd`** — Assemble personas + problems + requirements + scenarios into the full spec
+- **`pm-prd`** — Assemble personas + problems + requirements + scenarios into the full spec
   the team builds from. → *Product Requirements Document (PRD).*
-- **`release-plan`** — Commit an increment: MVP scope, themes ("100% of something"),
+- **`pm-release-plan`** — Commit an increment: MVP scope, themes ("100% of something"),
   estimation, market window, and sign-off. → *Release Plan / Charter.*
-- **`stakeholder-communication`** — Keep everyone aligned: the Influence × Importance
+- **`pm-stakeholder-communication`** — Keep everyone aligned: the Influence × Importance
   matrix, a comms plan, and status updates that expose risk early. → *Stakeholder
   Communication Plan + Status Update.*
 
 **Go-to-market**
-- **`launch-plan`** — Plan a launch where *readiness is more than product readiness*:
+- **`pm-launch-plan`** — Plan a launch where *readiness is more than product readiness*:
   messaging, sales enablement, demand programs, a readiness checklist, and metrics. →
   *Launch Plan + Readiness Checklist.*
 
