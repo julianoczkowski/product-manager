@@ -27,8 +27,8 @@ This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The sam
 - [What's inside](#whats-inside)
 - [The skills, explained](#the-skills-explained)
 - [Install](#install)
-  - [Claude Code](#claude-code-as-a-plugin)
   - [Claude Desktop](#claude-desktop-as-a-personal-plugin)
+  - [Claude Code](#claude-code-as-a-plugin)
   - [Cursor and other agents](#cursor-and-other-agents-via-the-skills-cli)
 - [Artifacts: Markdown or Word](#artifacts-markdown-or-word-one-folder-per-feature)
 - [How the journey works](#how-the-journey-works)
@@ -127,17 +127,6 @@ https://github.com/user-attachments/assets/520bbb41-67b0-42dd-a65c-2d52a6920fca
 
 ## Install
 
-### Claude Code (as a plugin)
-```
-/plugin marketplace add julianoczkowski/product-manager
-/plugin install product-manager@product-manager-marketplace
-```
-For local development instead of GitHub, point the marketplace at the folder:
-`/plugin marketplace add /Users/Shared/Development_Projects/product-manager`.
-
-Then just talk to it: *"I want to build a feature that lets users export reports."*
-The `pm-copilot` skill auto-activates and routes you.
-
 ### Claude Desktop (as a personal plugin)
 Add this repo as a plugin marketplace from the app UI:
 
@@ -149,18 +138,18 @@ Add this repo as a plugin marketplace from the app UI:
 5. Open the **Plugins → Personal** directory, find **Product Manager Copilot** under
    the **product-manager** marketplace, open it, and click **Install**.
 
+### Claude Code (as a plugin)
+```
+/plugin marketplace add julianoczkowski/product-manager
+/plugin install product-manager@product-manager-marketplace
+```
+
 ### Cursor and other agents (via the Skills CLI)
 Install straight from this repo with Vercel's open
 [Skills CLI](https://github.com/vercel-labs/skills):
 ```
 npx skills add julianoczkowski/product-manager
 ```
-The CLI auto-detects which coding agents you have installed — **Cursor, Claude Code,
-Codex, Cline, GitHub Copilot, and ~70 more** — and installs the skills into each.
-
-Or install manually: copy the `skills/` subfolders into the project's skills directory.
-The skills are plain `SKILL.md` files with **no external dependencies and no bundled
-scripts**, so they load and run directly.
 
 ---
 
