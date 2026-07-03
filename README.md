@@ -29,7 +29,7 @@ This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The sam
 - [Install](#install)
   - [Claude Code](#claude-code-as-a-plugin)
   - [Claude Desktop](#claude-desktop-as-a-personal-plugin)
-  - [Cursor](#cursor-as-portable-skills)
+  - [Cursor](#cursor-via-the-skills-cli)
 - [Artifacts: Markdown or Word](#artifacts-markdown-or-word-one-folder-per-feature)
 - [How the journey works](#how-the-journey-works)
 - [Repo layout](#repo-layout)
@@ -149,10 +149,22 @@ Add this repo as a plugin marketplace from the app UI:
 5. Open the **Plugins → Personal** directory, find **Product Manager Copilot** under
    the **product-manager** marketplace, open it, and click **Install**.
 
-### Cursor (as portable skills)
-Copy the `skills/` subfolders into the project's skills directory (e.g.
-`.claude/skills/`). The skills are plain `SKILL.md` files with **no external
-dependencies and no bundled scripts**, so they load and run directly.
+### Cursor (via the Skills CLI)
+Install straight from this repo with Vercel's open
+[Skills CLI](https://github.com/vercel-labs/skills):
+```
+# preview the skills in this repo
+npx skills add julianoczkowski/product-manager -a cursor --list
+
+# install all of them into Cursor
+npx skills add julianoczkowski/product-manager -a cursor --skill '*'
+```
+Skills install to `.agents/skills/` (project scope) by default, or `~/.cursor/skills/`
+with `-g`; add `-y` for a non-interactive install.
+
+Or install manually: copy the `skills/` subfolders into the project's skills directory.
+The skills are plain `SKILL.md` files with **no external dependencies and no bundled
+scripts**, so they load and run directly.
 
 ---
 
