@@ -196,20 +196,10 @@ Every stage asks how you want the deliverable — **Markdown (`.md`) or Word (`.
 
 ---
 
-## Repo layout
-```
-product-manager/
-├── .claude-plugin/
-│   ├── plugin.json
-│   └── marketplace.json
-├── skills/
-│   ├── pm-copilot/           # router + references/ (framework, journey, artifact-output)
-│   ├── pm-market-problems/ … pm-launch-plan/   # 17 stage skills
-├── README.md
-└── LICENSE
-```
-
 ## Author
+
+<img width="236" height="236" alt="avatar2" src="https://github.com/user-attachments/assets/5677ddb5-6b0b-4054-a70b-a143761dd307" />
+
 Built by **Julian Oczkowski** — I build AI tools for knowledge work.
 
 - 🎥 **[YouTube · @aiforwork_app](https://www.youtube.com/@aiforwork_app)** — walkthroughs and AI-for-work tutorials
