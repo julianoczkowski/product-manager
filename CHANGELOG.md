@@ -6,8 +6,14 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+## [0.3.0] — 2026-07-12
+
 ### Added
-- `CLAUDE.md` documenting skill conventions and the release/sync workflow.
+- `CLAUDE.md` and `AGENTS.md` repository guidance documenting skill conventions and
+  the release/sync workflow for Claude and Codex contributors.
+- Codex personal-plugin packaging in `.codex-plugin/plugin.json`, with all existing
+  `pm-*` skills exposed from `skills/` and personal marketplace support for the
+  ChatGPT desktop app.
 
 ### Changed
 - Cursor install now uses Vercel's open [Skills CLI](https://github.com/vercel-labs/skills)
@@ -16,6 +22,8 @@ All notable changes to this project are documented here. The format is based on
   The manual copy step remains as a fallback.
 - `.gitignore` now excludes `*.mp4` (demo videos are uploaded to GitHub's asset CDN, not
   committed).
+- README installation instructions now cover both the ChatGPT desktop UI and Codex
+  CLI, including marketplace updates and starting a new task after installation.
 
 ## [0.2.0] — 2026-07-03
 
@@ -51,6 +59,7 @@ All notable changes to this project are documented here. The format is based on
 - Plugin + marketplace manifests, README with an annotated skills list, MIT license,
   and security policy.
 
-[Unreleased]: https://github.com/julianoczkowski/product-manager/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/julianoczkowski/product-manager/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/julianoczkowski/product-manager/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/julianoczkowski/product-manager/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/julianoczkowski/product-manager/releases/tag/v0.1.0

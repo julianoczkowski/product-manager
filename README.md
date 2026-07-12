@@ -16,8 +16,9 @@ way to launch the *market-driven* way — and produces a **client-ready artifact
 > strategy → business case → requirements → roadmap → release → launch — and hands
 > you a finished document each step of the way.
 
-This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The same
-`skills/` folder works in **Claude Code**, **Claude Desktop**, and **Cursor**.
+This is an **Agent Skills** bundle packaged for **Codex** and **Claude Code**. The same
+`skills/` folder works in **ChatGPT desktop**, **Codex**, **Claude Code**, **Claude
+Desktop**, and **Cursor**.
 
 > **Disclaimer:** This is an independent tool that operationalizes the publicly
 > described Pragmatic Framework for practitioners. It is **not affiliated with,
@@ -31,6 +32,7 @@ This is an **Agent Skills** bundle packaged as a **Claude Code plugin**. The sam
 - [What's inside](#whats-inside)
 - [The skills, explained](#the-skills-explained)
 - [Install](#install)
+  - [ChatGPT desktop / Codex](#chatgpt-desktop--codex-as-a-personal-plugin)
   - [Claude Desktop](#claude-desktop-as-a-personal-plugin)
   - [Claude Code](#claude-code-as-a-plugin)
   - [Cursor and other agents](#cursor-and-other-agents-via-the-skills-cli)
@@ -130,6 +132,33 @@ https://github.com/user-attachments/assets/520bbb41-67b0-42dd-a65c-2d52a6920fca
 ---
 
 ## Install
+
+### ChatGPT desktop / Codex (as a personal plugin)
+
+The Codex package is defined by `.codex-plugin/plugin.json`, with all 18 skills
+discovered from `skills/`.
+
+**From the ChatGPT desktop app:**
+
+1. Open **Plugins** and choose **Add marketplace**.
+2. Add the GitHub repository: `julianoczkowski/product-manager`.
+3. Open **Product Manager Copilot** in the marketplace and click **Install**.
+4. Start a new task so ChatGPT loads the `pm-*` skills.
+
+**From the Codex CLI:**
+
+```bash
+codex plugin marketplace add julianoczkowski/product-manager
+codex plugin add product-manager@product-manager-marketplace
+```
+
+Then open or restart the ChatGPT desktop app and start a new task. To receive later
+updates, refresh the marketplace before reinstalling:
+
+```bash
+codex plugin marketplace upgrade product-manager-marketplace
+codex plugin add product-manager@product-manager-marketplace
+```
 
 ### Claude Desktop (as a personal plugin)
 Add this repo as a plugin marketplace from the app UI.

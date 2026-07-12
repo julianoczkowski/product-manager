@@ -1,0 +1,41 @@
+{
+  "name": "product-manager",
+  "version": "0.3.0",
+  "description": "A product-management copilot based on the Pragmatic Institute Framework that guides product managers from market discovery through launch.",
+  "author": {
+    "name": "Julian Oczkowski",
+    "url": "https://github.com/julianoczkowski"
+  },
+  "homepage": "https://github.com/julianoczkowski/product-manager",
+  "repository": "https://github.com/julianoczkowski/product-manager",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "pragmatic-framework",
+    "market-research",
+    "positioning",
+    "personas",
+    "roadmap",
+    "prd",
+    "go-to-market"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Product Manager Copilot",
+    "shortDescription": "Market-driven product management from discovery to launch.",
+    "longDescription": "Guide product work through market problems, personas, positioning, strategy, requirements, roadmaps, releases, and launch using the Pragmatic Institute Framework.",
+    "developerName": "Julian Oczkowski",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/julianoczkowski/product-manager",
+    "defaultPrompt": [
+      "Help me take a product idea from market problem to launch.",
+      "Turn my market evidence into a product strategy.",
+      "Create a market-driven PRD for my feature."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
