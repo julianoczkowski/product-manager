@@ -23,16 +23,14 @@ See `../pm-copilot/references/framework.md` for the primitives used below.
 **Priority = Market Evidence × Impact** (advanced: × (B + U + C + V) — Buying, Using, Vision, Competitive).
 
 ## Reuse what already exists
-Before gathering inputs, look for prior artifacts in the working directory and offer
-to pull them in (don't duplicate work):
-
-```bash
-ls *.md pragmatic/*.md 2>/dev/null | grep -Ei 'persona|positioning|market-problem|requirement|use-scenario|roadmap'
-```
-
-If found, read them and reuse their personas, problems, positioning statement, and
-prioritized requirements. If not, gather inline (or offer to run `pm-personas`,
-`pm-market-problems`, `pm-requirements`, `pm-use-scenarios` first).
+Before gathering inputs, find or resume the **feature dossier** as described in
+`../pm-copilot/references/artifact-output.md` ("Find or resume the feature dossier"
+and "Reuse prior artifacts"): look for the feature folder (or
+`NN-*.md` files, or artifacts earlier in this conversation) and reuse their personas,
+problems, positioning statement, and prioritized requirements — don't duplicate work,
+and carry their open caveats forward. If nothing exists yet, gather inline (or offer
+to run `pm-personas`, `pm-market-problems`, `pm-requirements`, `pm-use-scenarios`
+first).
 
 ## Interview the user (batch questions)
 1. **Product & release** — name, version, and the goal of *this* release.

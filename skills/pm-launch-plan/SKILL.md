@@ -15,8 +15,9 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 > cross-functional: the product can be done while the market, the channel, and
 > support are not. Plan, execute, and measure the launch as its own deliverable.
 
-Reuse the positioning statement, personas, and target date from earlier artifacts if
-they exist (positioning doc, personas, release charter). See
+Reuse the positioning statement, personas, and launch trigger from earlier artifacts
+in the feature dossier if they exist (positioning doc, personas, release charter —
+see `../pm-copilot/references/artifact-output.md` for how to find the dossier). See
 `../pm-copilot/references/framework.md` for the Programs and Enablement boxes.
 
 ## What a launch pulls together
@@ -27,10 +28,14 @@ they exist (positioning doc, personas, release charter). See
   Content (per persona, per buying step), Sales Tools (per selling step), Channel
   Training (how to *sell* the product, not use it).
 - **Market Window:** Marketing, Sales, and Operations work **backward from** the launch
-  date while Development works **to** it.
+  date while Development works **to** it. If the release is **content-driven** (no
+  committed date — see the release charter), anchor the backward plan to the release's
+  **exit criteria** instead, and re-forecast the launch date as they near completion.
 
 ## Interview the user (batch questions)
-1. **What's launching**, at what **scale/tier** (major vs minor), and the **target date/market window**?
+1. **What's launching**, at what **scale/tier** (major vs minor), and the **target
+   date/market window** — or, for a content-driven release, the **exit criteria** that
+   will trigger the launch?
 2. **Launch goals & success metrics** — awareness, pipeline, adoption, revenue?
 3. **Target personas & positioning** — who are we reaching, and what's the core message? (link the positioning doc)
 4. **Channels & programs** — how will we create awareness and nurture demand?
@@ -41,7 +46,7 @@ they exist (positioning doc, personas, release charter). See
 ```markdown
 # Launch Plan — <Product> <Version>
 
-**Launch date / market window:** <date>   **Tier:** <major | minor>
+**Launch trigger:** <date / market window — or content-driven: launches when <exit criteria> are met>   **Tier:** <major | minor>
 **Company:** <company>  ·  **Feature / Product:** <feature / product name>
 **Author:** <author>  ·  **Date created:** <date>  ·  **Version:** 1.0
 

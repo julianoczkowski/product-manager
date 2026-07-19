@@ -20,10 +20,11 @@ quantify the risk with a financial model, and **end with a go/no-go recommendati
 Opinion is irrelevant; the case is built on validated market evidence. See
 `../pm-copilot/references/framework.md` for the market-problem test and primitives.
 
-If the underlying market problem, personas, positioning, competitive picture, or
-distinctive competencies aren't established yet, gather them first (run
-`pm-market-problems`, `pm-personas`, `pm-positioning`, `pm-competitive-landscape`,
-`pm-distinctive-competence`) — the canvas synthesizes them.
+Check the feature dossier first (see `../pm-copilot/references/artifact-output.md`)
+and reuse the market problem, personas, positioning, competitive picture, and
+distinctive competencies already established there. Where they're missing, gather
+them (run `pm-market-problems`, `pm-personas`, `pm-positioning`,
+`pm-competitive-landscape`, `pm-distinctive-competence`) — the canvas synthesizes them.
 
 ## The Product Canvas — three parts
 

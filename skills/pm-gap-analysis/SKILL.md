@@ -88,4 +88,8 @@ PgM (Program Manager), PjM (Project Manager), PO (Product Owner), TPM (Technical
 Follow `../pm-copilot/references/artifact-output.md`: confirm inputs, **ask Markdown
 or .docx**, write the `.md`, convert via your environment's native document-creation capability on request. Then route to
 the worst-scoring box using `../pm-copilot/references/journey.md` (e.g. a Market
-Problems gap → run **`pm-market-problems`**).
+Problems gap → run **`pm-market-problems`**). Not every one of the 37 boxes has a
+dedicated skill (e.g. Pricing, Asset Assessment, Market Definition, Distribution
+Strategy, Buyer Experience) — if the top gap lands on one of those, say so plainly
+and advise directly from that box's definition in
+`../pm-copilot/references/framework.md` instead of forcing the nearest skill.

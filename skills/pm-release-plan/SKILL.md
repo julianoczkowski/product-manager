@@ -36,8 +36,11 @@ Release → **T-shirt sizes (S/M/L)** → Iteration → **story points** → Day
 Product management is available to answer questions at every step. The dev team makes
 the final estimate.
 
-**Market Window & schedule direction:** Development works **TO** a date (iterating
-toward the window); Marketing, Sales and Operations work backward **FROM** it.
+**Market Window & schedule direction:** On a **date-driven** release, development works
+**TO** a date (iterating toward the window); Marketing, Sales and Operations work
+backward **FROM** it. On a **content-driven** release there is no committed date —
+define the **exit criteria** that trigger launch instead, and the go-to-market clock
+starts when they're met.
 
 **Change levers (iron triangle):** **Scope · Schedule · Resources.** Decide up front
 which one drives the plan and how you'll absorb change.
@@ -46,7 +49,10 @@ which one drives the plan and how you'll absorb change.
 1. **Product, version, project name.**
 2. **Release theme(s)** — the unifying message (persona goals / major capability / set of problems).
 3. **Which prioritized requirements** are in scope? (pull from an existing MRD/PRD if present)
-4. **Target launch date / market window** — and is the release date-driven or content-driven?
+4. **Date-driven or content-driven?** Is this release driven by a target date / market
+   window, or by content (it ships when the themes are done)? Both are equally valid.
+   Only if date-driven: what is the target date or market window? "There is no date"
+   is a legitimate answer — that's a content-driven release, not a missing input.
 5. **Major milestones** — code complete, beta, final QA, release to production, GA.
 6. **Change lever** — will Scope, Schedule, or Resources flex when reality hits?
 
@@ -57,7 +63,7 @@ which one drives the plan and how you'll absorb change.
 **Company:** <company>  ·  **Feature / Product:** <name>
 **Author:** <author>  ·  **Date created:** <date>  ·  **Version:** <version>
 **Project Name:** <project>   **Release Theme:** <theme>
-**Target Launch Date:** <date / market window>
+**Schedule:** <date-driven: <target date / market window> · or content-driven: ships when <exit criteria> are met>
 
 ## Themes
 - **<Theme 1>** — <what it delivers and why (persona/goal/strategy it serves)>

@@ -6,6 +6,56 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+## [0.4.0] — 2026-07-19
+
+### Added
+- Shared artifact procedure (`pm-copilot/references/artifact-output.md`) now has an
+  explicit "carry forward open caveats" step: before writing, skills scan prior
+  artifacts in the feature dossier for unvalidated-evidence warnings, assumptions, and
+  open questions, and restate the load-bearing ones (or mark them resolved) so
+  downstream artifacts never read as better-evidenced than their inputs.
+- New "find or resume the feature dossier" step in the shared artifact procedure:
+  skills look for an existing feature folder / numbered artifacts (or artifacts
+  earlier in the conversation) before creating anything, reuse the header inputs and
+  prior content instead of re-interviewing, and continue the same numbering across
+  sessions. Host-aware output: folder-capable hosts (Claude Code, Cursor, VS Code
+  Copilot) get one folder per feature; file-only hosts (Claude Desktop, Codex
+  desktop app) get feature-slug-prefixed standalone files.
+- Filename numbering is now defined: `NN` is the journey **stage** number from
+  `journey.md` (stable across sessions, gaps expected), with suffixes for companion
+  artifacts (`06-positioning-poc-worksheet.md`) and per-instance artifacts
+  (`01-market-discovery-<contact>.md`).
+- `pm-gap-analysis` now says what to do when the top gap lands on a framework box
+  with no dedicated skill (Pricing, Asset Assessment, Market Definition, Distribution
+  Strategy, Buyer Experience): advise from `framework.md` directly and say so.
+
+### Fixed
+- Removed the last reference to a "bundled converter" from `pm-copilot` — `.docx`
+  output is produced by whatever document capability the host provides, as
+  `artifact-output.md` already specified.
+- Removed `pm-prd`'s stale `pragmatic/*.md` artifact-lookup glob (it pointed at a
+  folder no skill creates); it now resumes the feature dossier like every other skill.
+- Fixed a dangling "M5 prioritization logic" reference in `pm-distinctive-competence`
+  (now points at the market-problem test and opportunity-scoring attributes).
+- `pm-market-problems` templates now match the mandatory-header rule: the Market
+  Discovery Document header moved from the bottom to the top, and the Market Problems
+  Table gained a header.
+- `pm-personas`' interview-balance guidance now includes all four market segments
+  (competitors' customers was missing).
+- `pm-launch-plan` supports content-driven releases: the launch anchor can be exit
+  criteria instead of a date, matching the release charter.
+- `pm-requirements`' MRD template no longer duplicates author info (contact table
+  merged into the standard header).
+- The mandatory-header rule now explicitly permits doc-type label adaptations
+  (e.g. "Scope / Product" in the gap analysis) while requiring all four fields.
+
+### Changed
+- `pm-release-plan` now treats content-driven releases as a first-class option: the
+  interview asks date-driven vs. content-driven before asking for a date ("there is
+  no date" is a legitimate answer), the Market Window guidance covers exit-criteria
+  launches, and the Release Charter template's `Target Launch Date` field is now a
+  `Schedule` field that accepts either form.
+
 ## [0.3.0] — 2026-07-12
 
 ### Added

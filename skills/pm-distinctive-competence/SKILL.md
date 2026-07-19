@@ -14,8 +14,8 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 Articulate and leverage the organization's **unique abilities to deliver value to the
 market.** These are the strengths you intersect with validated market problems to find
-opportunities that are *ideal for you* (see the M5 prioritization logic in
-`../pm-copilot/references/framework.md`).
+opportunities that are *ideal for you* (see the market-problem test and the
+opportunity-scoring attributes in `../pm-copilot/references/framework.md`).
 
 ## The test — an attribute is a distinctive competency only if it is all three
 - **Valued** — the market actually cares about it (it maps to a real problem they'll pay to solve).

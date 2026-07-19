@@ -73,9 +73,13 @@ your hypothesis).
 
 ## Artifact templates
 
-### Market Discovery Document (one per visit/interview)
+### Market Discovery Document (one per visit/interview — one file each, named
+`01-market-discovery-<contact-or-org>.md` per `artifact-output.md`)
 ```markdown
 # Market Discovery Document
+
+**Company:** <company>  ·  **Feature / Product:** <feature / product name>
+**Author:** <author>  ·  **Date created:** <date>  ·  **Version:** 1.0
 
 ## Contact Info
 - **Name:**  |  **Title:**  |  **Organization:**
@@ -92,15 +96,14 @@ your hypothesis).
 
 ## Key Observations and Problems
 <problems in the persona's first-person voice; note urgency / pervasiveness / willingness-to-pay signals; which segment>
-
----
-**Company:** <company>  ·  **Feature / Product:** <feature / product name>
-**Author:** <author>  ·  **Date created:** <date>  ·  **Version:** 1.0
 ```
 
 ### Market Problems Table (roll-up across discovery)
 ```markdown
 # Market Problems Table — <product / market>
+
+**Company:** <company>  ·  **Feature / Product:** <feature / product name>
+**Author:** <author>  ·  **Date created:** <date>
 
 | Persona | Problem Name (first person) | Market Evidence | Impact (1–5, 99999=contractual) | Priority (Evidence × Impact) | Group |
 | :--- | :--- | ---: | ---: | ---: | :--- |

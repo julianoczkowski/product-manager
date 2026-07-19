@@ -32,8 +32,9 @@ interview across segments and persona types:
 | Segment A | who fills each buyer role | who the day-to-day users are |
 
 Buyer roles: **Economic** (owns the budget/ROI), **Technical** (gatekeeps on fit/risk),
-**Functional** (uses the outcome, champions internally). Balance interviews across
-customers, evaluators (win/loss) and potentials.
+**Functional** (uses the outcome, champions internally). Balance interviews across all
+four market segments: customers, competitors' customers, evaluators (win/loss) and
+potentials.
 
 ## Interview the user for inputs (batch questions)
 1. Which **product/feature** and **market segment** is this persona for?

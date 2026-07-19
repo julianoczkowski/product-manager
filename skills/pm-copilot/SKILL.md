@@ -36,8 +36,10 @@ not from opinion: *"Your opinion, although interesting, is irrelevant."*
    (e.g. `pm-positioning`, `pm-requirements`). Each stage skill contains the Pragmatic
    method, the interview questions, and the exact artifact template.
 5. **Produce the artifact.** Every stage ends with an artifact. Follow
-   `references/artifact-output.md` exactly — including asking **Markdown or .docx**
-   and running the bundled converter for .docx.
+   `references/artifact-output.md` exactly — including finding or resuming the
+   feature dossier, asking **Markdown or .docx**, and producing any `.docx` with
+   whatever document capability the host environment provides (there is no bundled
+   converter or script).
 6. **Advance.** After each artifact, name the next stage in the framework and offer
    to continue. Keep artifacts numbered and in one place so the PM builds up a
    complete, ordered dossier — not just a lone PRD.
@@ -55,8 +57,11 @@ not from opinion: *"Your opinion, although interesting, is irrelevant."*
   customers, evaluators, potentials) — see `framework.md`.
 - **Ask, don't guess.** Batch 2–4 focused questions when you're missing inputs the
   stage needs. Prefer the user's real data over plausible filler.
-- **One artifact per stage, client-ready.** Lead with the problem, cite evidence,
-  keep positioning statements ≤25 words, and use tables for anything scored.
+- **Client-ready artifacts at every stage.** Most stages produce one artifact; some
+  produce a small set (e.g. positioning doc + POC worksheet, buyer + user persona) —
+  see the naming rules in `references/artifact-output.md`. Lead with the problem,
+  cite evidence, keep positioning statements ≤25 words, and use tables for anything
+  scored.
 
 ## The stages (each is its own skill)
 

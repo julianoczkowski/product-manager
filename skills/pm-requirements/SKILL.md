@@ -64,13 +64,8 @@ of something, not 70% of everything."
 commitments can be made based on this document since it is in early planning stages.
 Content and timing are very likely to change.*
 
-## Author(s) and Contact Information
-| Name | Location | Email | Telephone |
-| :--- | :--- | :--- | :--- |
-| <name> | <loc> | <email> | <phone> |
-
 **Company:** <company>  ·  **Feature / Product:** <product name>
-**Author:** <author>  ·  **Date created:** <date>  ·  **Date last updated:** <date>
+**Author:** <author>  ·  **Contact:** <email>  ·  **Date created:** <date>  ·  **Date last updated:** <date>
 
 ## Overview of Target Release
 <What is the goal for this release? What market forces are driving this project? What

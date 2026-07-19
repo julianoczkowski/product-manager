@@ -36,7 +36,7 @@ Desktop**, and **Cursor**.
   - [Claude Desktop](#claude-desktop-as-a-personal-plugin)
   - [Claude Code](#claude-code-as-a-plugin)
   - [Cursor and other agents](#cursor-and-other-agents-via-the-skills-cli)
-- [Artifacts: Markdown or Word](#artifacts-markdown-or-word-one-folder-per-feature)
+- [Artifacts: Markdown or Word](#artifacts-markdown-or-word-one-dossier-per-feature)
 - [How the journey works](#how-the-journey-works)
 - [Author](#author)
 - [License](#license)
@@ -188,18 +188,26 @@ npx skills add julianoczkowski/product-manager
 
 ---
 
-## Artifacts: Markdown or Word, one folder per feature
+## Artifacts: Markdown or Word, one dossier per feature
 
 Every stage asks how you want the deliverable — **Markdown (`.md`) or Word (`.docx`)**.
 
 <img width="1093" height="606" alt="artefacts" src="https://github.com/user-attachments/assets/2c7f580c-af0d-477d-8134-db017515e911" />
 
-- **One folder per feature.** The first artifact of a session creates a folder named
-  after your feature/product (e.g. `satellite-tracking-system/`) in the working
-  directory, and every subsequent artifact is saved there and numbered
-  (`01-…`, `02-…`) — so you accumulate a complete, ordered dossier, not scattered files.
+- **One dossier per feature.** In hosts with full file tools (Claude Code, Cursor,
+  VS Code Copilot) the first artifact creates a folder named after your
+  feature/product (e.g. `satellite-tracking-system/`) and every artifact is saved
+  there; in app hosts that deliver standalone files (Claude Desktop, the Codex
+  desktop app) the filenames carry a feature-slug prefix instead. Either way,
+  artifacts are numbered by their journey stage (`06-positioning.md`,
+  `11-requirements.md`) — so you accumulate a complete, ordered dossier, not
+  scattered files.
+- **Sessions resume the dossier.** Coming back later, the skills find the existing
+  folder/files, reuse the header inputs, build on prior artifacts instead of
+  re-interviewing you, and carry forward any still-open assumptions or
+  unvalidated-evidence warnings.
 - **Every artifact carries the same header:** Company · Feature/Product · Author · Date.
-  These are collected once at the start of a session and reused.
+  These are collected once per feature and reused.
 - **DOCX is produced natively.** The `.docx` is created using whatever native
   document-creation capability the host environment (Claude Code / Cursor / Cowork)
   provides — there is **no bundled converter script or Python/pandoc dependency** to
@@ -218,8 +226,9 @@ Every stage asks how you want the deliverable — **Markdown (`.md`) or Word (`.
 3. **Interview** — the stage skill asks the few questions it needs (evidence first).
 4. **Draft** — it produces the artifact, leading with the *market problem*, citing
    evidence, and flagging assumptions instead of inventing data.
-5. **Deliver** — Markdown or `.docx`, saved into the feature's folder and numbered so
-   your artifacts accumulate into a complete, ordered dossier.
+5. **Deliver** — Markdown or `.docx`, saved into the feature's dossier (folder or
+   slug-prefixed files, depending on the host) and numbered by journey stage so your
+   artifacts accumulate into a complete, ordered set.
 6. **Advance** — it names the next Pragmatic stage and offers to continue.
 
 ---
