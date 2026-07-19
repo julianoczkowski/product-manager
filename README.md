@@ -4,6 +4,8 @@
 [![Medium](https://img.shields.io/badge/Medium-%40julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Julian%20Oczkowski-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianoczkowski/)
 
+> ▶️ **New here? [Watch the walkthrough on YouTube](https://youtu.be/Y1BMaQJCK0Y)** — a full tour of the skills and the setup you need to get started.
+
 <img width="800" height="450" alt="thumbnail" src="https://github.com/user-attachments/assets/14cde826-d93a-4aff-84f5-d2f330df3c44" />
 
 ---
