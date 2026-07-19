@@ -4,8 +4,9 @@
 [![Medium](https://img.shields.io/badge/Medium-%40julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Julian%20Oczkowski-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianoczkowski/)
 
-https://github.com/user-attachments/assets/621169c2-778c-448c-8d8d-de8597a28fce
+<img width="800" height="450" alt="thumbnail" src="https://github.com/user-attachments/assets/14cde826-d93a-4aff-84f5-d2f330df3c44" />
 
+---
 A **product-management copilot** built on the **Pragmatic Institute Framework™**
 (Foundations · Focus · Build). It guides a product manager from a raw idea all the
 way to launch the *market-driven* way — and produces a **client-ready artifact
@@ -24,6 +25,9 @@ Desktop**, and **Cursor**.
 > described Pragmatic Framework for practitioners. It is **not affiliated with,
 > endorsed by, or sponsored by Pragmatic Institute**. "Pragmatic Framework" and
 > "Pragmatic Institute" are trademarks of their respective owner.
+---
+
+https://github.com/user-attachments/assets/621169c2-778c-448c-8d8d-de8597a28fce
 
 ---
 
